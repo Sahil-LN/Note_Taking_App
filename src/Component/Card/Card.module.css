@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin: 5px;
+    border: 2px solid rgb(4, 91, 192);
+    border-radius: 20px;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s;
+}
+
+.container:hover{
+    background-color: #a6ff6f;
+    /* color: white; */
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.para{
+    width: 90%;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow-x: auto;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    width: auto;
+    margin-right: 5px;
+}
+
+.btn{
+    border-radius: 30px;
+}
+
+.divider{
+    background: #000;
+}
+
+@media only screen and (max-width: 800px) {
+    
+}
